@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int age;
+    cout<<"Enter Age:";
+    cin>>age;
+    if(age>=12 && age<=50)
+    {
+        cout<<"Young"<<endl;
+    }
+    else
+    {
+        cout<<"Not Young"<<endl;
+    }
+    if(age<12 || age>50)
+    {
+        cout<<"Eligible";
+    }
+    else
+    {
+        cout<<"Not Eligible";
+    }
+    return 0;
+}
